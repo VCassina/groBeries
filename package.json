@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vcassina.github.io/project/",
-  "name": "template",
+  "homepage": "https://vcassina.github.io/groBeries/",
+  "name": "groberies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

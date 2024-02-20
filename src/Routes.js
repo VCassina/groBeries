@@ -5,7 +5,7 @@ import HomePage from "./pages/homePage.js";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/groBeries" element={<HomePage />} />
     </Routes>
   );
 };
