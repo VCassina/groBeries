@@ -1,22 +1,20 @@
 import React from "react";
 import data from "../datas/groceries.json";
+import CheckList from "../items/checkList.js";
+
+console.log(data.plats.ingredients);
 
 function GroceriesList() {
   return (
-    <footer className="footer text-center py-4">
-      <ul className="plats">
-      {data.plats.map((plat, index) => (
-        <li key={index}>
-          <h2 className="font-bold border-b-2 border-gray-400 mb-2">{plat.titre}</h2>
-          <ul>
-            {plat.ingredients && plat.ingredients.map((ingredient, index) => (
-              <li key={index}>{ingredient}</li>
-            ))}
-          </ul>
-        </li>
-      ))}
-    </ul>
-    </footer>
+    <section className="footer text-center py-4 flex flex-col gap-10">
+      <article>
+        <h3 className="font-bold border-b-4" id="plats">
+          PLATS
+        </h3>
+        <CheckList data={data.plats} />
+        <CheckList data={data.articles} />
+      </article>
+    </section>
   );
 }
 

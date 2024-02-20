@@ -24,6 +24,10 @@
         "titre": "salade",
         "ingredients": ["boursin", "feuilles", "huile d'olive", "jus de citron", "tomates", "concombre", "fromage ossau iraty"]
       }
+    ],
+    "articles": [
+        "huile d'olive",
+        "sel"
     ]
   }
   

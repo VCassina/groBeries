@@ -1,25 +1,30 @@
-import React from "react"
+import React from "react";
 import useResolution from "../helpers/useResolution";
 import ErrorResolution from "./errorResolution";
 import Header from "./header";
 import GroceriesList from "./groceriesList";
 import Footer from "./footer";
+// import SideNav from "./sideNav";
 
-function MainComponent(){
-  const resolution = useResolution()
+function MainComponent() {
+  const resolution = useResolution();
   return (
-    <main className="welcome-container m-4">
-      {resolution === 'mobile' ? (
+    <div className="welcome-container m-4">
+      {resolution === "mobile" ? (
         <>
           <Header />
-          <GroceriesList />
-          <Footer />
+          <main>
+            <GroceriesList />
+            {/* <SideNav /> */}
+            </main>
+            <Footer />
+          
         </>
       ) : (
         <ErrorResolution />
       )}
-    </main>
-  )
+    </div>
+  );
 }
 
 export default MainComponent;
