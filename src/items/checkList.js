@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
-function CheckList ({ data }) {
-  console.log(data)
+function CheckList({ data, isOpen }) {
   return (
-    <ul className={`items flex flex-col ${data.some(item => item.titre) ? 'gap-10' : ''}`}>
+    <ul
+    className={`items flex flex-col mx-8 ${
+      data.some((item) => item.titre) ? "gap-10" : ""
+    } ${isOpen ? "open--sass" : "hidden--sass"}`}
+  >
       {data.map((item, index) => (
         <li key={index}>
           {item.titre ? (
@@ -24,11 +27,11 @@ function CheckList ({ data }) {
           ) : (
             // Sinon, on suppose que c'est un simple tableau d'éléments.
             <ul>
-            <li className="flex justify-between mx-8">
-              <p>{item}</p>
-              <input type="checkbox" />
-            </li>
-          </ul>
+              <li className="flex justify-between mx-8">
+                <p>{item}</p>
+                <input type="checkbox" />
+              </li>
+            </ul>
           )}
         </li>
       ))}

@@ -1,25 +1,43 @@
 import React from "react";
 import data from "../datas/groceries.json";
 import CheckList from "../items/checkList.js";
-
-console.log(data.plats.ingredients);
+import ToggleMenu from "../items/toggleMenu.js";
 
 function GroceriesList() {
+  const [isOpen, setIsOpen] = React.useState({
+    plats: false,
+    accompagnements: false,
+    articles: false,
+  });
+
+  const toggleCategory = (category) => {
+    setIsOpen({ ...isOpen, [category]: !isOpen[category] });
+  };
+
   return (
     <section className="footer text-center py-4 flex flex-col gap-10">
-      <article>
-        <h3 className="font-bold border-b-4 my-8" id="plats">
-          <p>PLATS</p>
-        </h3>
-        <CheckList data={data.plats} />
-        <h3 className="font-bold border-b-4 my-8" id="plats">
-        <p>ACCOMPAGNEMENTS</p>
-        </h3>
-        <CheckList data={data.accompagnements} />
-        <h3 className="font-bold border-b-4 my-8" id="plats">
-        <p>ARTICLES</p>
-        </h3>
-        <CheckList data={data.articles} />
+      <article className="flex flex-col h-100">
+        <ToggleMenu
+          category="plats"
+          title="PLATS"
+          isOpen={isOpen.plats}
+          toggleCategory={toggleCategory}
+        />
+        <CheckList data={data.plats} isOpen={isOpen.plats} />
+        <ToggleMenu
+          category="accompagnements"
+          title="ACCOMPAGNEMENTS"
+          isOpen={isOpen.accompagnements}
+          toggleCategory={toggleCategory}
+        />
+        <CheckList data={data.accompagnements} isOpen={isOpen.accompagnements} />
+        <ToggleMenu
+          category="articles"
+          title="ARTICLES"
+          isOpen={isOpen.articles}
+          toggleCategory={toggleCategory}
+        />
+        <CheckList data={data.articles} isOpen={isOpen.articles} />
       </article>
     </section>
   );

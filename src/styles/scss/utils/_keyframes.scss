@@ -1,0 +1,56 @@
+// .wrapper--sass {
+//     display: flex;
+// }
+
+.hidden--sass {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+  
+  .open--sass {
+    max-height: 1200px;
+    overflow: scroll;
+    transition: max-height 0.5s ease-out;
+  }
+
+
+  
+// .hidden--sass {  transform: scaleY(0);
+//     transform-origin: top;
+//   transition: transform 0.5s linear;
+//   overflow: hidden;
+//   height: 0;
+// }
+
+// .open--sass {
+//   transform: scaleY(1);
+//   transform-origin: top;
+//   transition: transform 0.5s linear;
+// }
+
+// .wrapper--sass {
+//     display: flex;
+//     background-color: red;
+//   }
+  
+//   .target--sass {
+//     max-height: 0;
+//     overflow: hidden;
+//     transition: max-height 0.5s ease-out;
+//     background-color: blue;
+//   }
+  
+//   .wrapper--sass.open--sass .target--sass {
+//     max-height: 100%;
+//     background-color: yellow;
+//   }
+  
+// .open--sass {
+//     visibility:visible;
+    
+// }
+
+// .hidden--sass {
+//     visibility:hidden;
+// }
