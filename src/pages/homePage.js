@@ -1,10 +1,10 @@
 import React from "react";
-import WelcomeTemplateTexte from "../components/welcomeTemplateTexte";
+import MainComponent from "../components/mainComponent";
 
 function HomePage() {
   return (
     <>
-        <WelcomeTemplateTexte />
+        <MainComponent />
     </>
   );
 }

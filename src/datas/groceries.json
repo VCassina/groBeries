@@ -1,0 +1,29 @@
+{
+    "plats": [
+      {
+        "titre": "salade de pâtes",
+        "ingredients": ["feta", "tomates", "basilic", "huile d'olive", "jus de citron"]
+      },
+      {
+        "titre": "brocolis à la crème et lardons",
+        "ingredients": ["brocolis", "crème", "lardons"]
+      },
+      {
+        "titre": "épinards/brocolis/patates + filet de poulet",
+        "ingredients": ["Epinards/brocolis/patates", "poulet", "crème"]
+      },
+      {
+        "titre": "repas du midi répétable",
+        "ingredients": ["Un truc", "un autre truc"]
+      },
+      {
+        "titre": "pita truite/poulet",
+        "ingredients": ["boursin", "tomates", "salade", "truite/poulet"]
+      },
+      {
+        "titre": "salade",
+        "ingredients": ["boursin", "feuilles", "huile d'olive", "jus de citron", "tomates", "concombre", "fromage ossau iraty"]
+      }
+    ]
+  }
+  
