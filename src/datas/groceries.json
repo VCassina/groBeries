@@ -1,31 +1,34 @@
 {
     "plats": [
       {
-        "titre": "salade de pâtes",
-        "ingredients": ["feta", "tomates", "basilic", "huile d'olive", "jus de citron"]
+        "titre": "Salade de pâtes",
+        "ingredients": ["feta", "tomates", "basilic", "huile d'olive", "jus de citron", "pâtes"]
       },
       {
-        "titre": "brocolis à la crème et lardons",
+        "titre": "Brocolis à la crème et lardons",
         "ingredients": ["brocolis", "crème", "lardons"]
       },
       {
-        "titre": "épinards/brocolis/patates + filet de poulet",
-        "ingredients": ["Epinards/brocolis/patates", "poulet", "crème"]
+        "titre": "Epinards/patates + filet de poulet",
+        "ingredients": ["Epinards/patates", "poulet", "crème"]
       },
       {
-        "titre": "repas du midi répétable",
-        "ingredients": ["Un truc", "un autre truc"]
+        "titre": "Pita truite/poulet",
+        "ingredients": ["boursin", "tomates", "salade", "truite/poulet", "autre légumes"]
       },
       {
-        "titre": "pita truite/poulet",
-        "ingredients": ["boursin", "tomates", "salade", "truite/poulet"]
-      },
-      {
-        "titre": "salade",
-        "ingredients": ["boursin", "feuilles", "huile d'olive", "jus de citron", "tomates", "concombre", "fromage ossau iraty"]
+        "titre": "Salade spéciale",
+        "ingredients": ["boursin", "salade batavia", "huile d'olive", "jus de citron", "tomates", "fromage ossau iraty", "lardons"]
       }
     ],
+    "accompagnements": [
+        {
+        "titre": "Purée de pomme de terre",
+        "ingredients": ["lait", "beurre", "pomme de terre"]
+        }
+      ],
     "articles": [
+        "Crêpe salée",
         "huile d'olive",
         "sel"
     ]
