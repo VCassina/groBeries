@@ -1,0 +1,12 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+
+@import "utils/_variables.scss";
+@import "utils/_mixins.scss";
+@import "base/_normalise.scss";
+@import "base/_typography.scss";
+@import "base/_responsive.scss";
+@import "utils/_keyframes.scss";
+// ITEMS & COMPONENTS !
+@import "components/_welcomeTemplateTexte.scss";

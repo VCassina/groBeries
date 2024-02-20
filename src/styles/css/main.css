@@ -1,0 +1,14 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+#reactRoot {
+  margin: 0 auto;
+  max-width: 1280px;
+  overflow-x: hidden;
+}
+
+.welcome-container {
+  background-color: red;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+#####################
+DEPENDANCES (last update 14/02/2024) :
+_ _ _ _ _ _ _ _ _ _ _ 
+
+@testing-library/est-dom A library of custom jest matchers that you can use to the DOM.
+testing-library/: A library of utilities to test React components.
+@testing-library/user-event: A library of utilities to simulate user events in tests.
+express: A web framework for Node.js.
+gh-pages: A package to deploy your site to GitHub Pages.
+react: A JavaScript library for building user interfaces.
+react-dom: A package that lets you render React components to the DOM.
+react-router-dom: A package that lets you add routing to your React application.
+react-scripts: A collection of scripts and configuration files for creating a React application.
+web-vitals: A library to measure web performance metrics.
+zustand: A small, fast and flexible state management solution for React.
+sass: A script to compile SASS files to CSS.
+start: A script to start the development server.
+build: A script to build the production version of the application.
+test: A script to run tests.
+eject: A script to eject from the create-react-app configuration.
+predeploy: A script to build the application before deploying.
+deploy: A script to deploy the application to GitHub Pages.
+fontawesome : A database for icons.
+react-responsive : A lightweight responsive design library for React.
+react-icons : A collection of popular icon sets available as React Components.
+Tailwindcss : A  utility-first CSS framework packaged as npm module. Its purpose is to provide a more efficient way.
+
+#####################
+PRATIQUES (last update 14/02/2024) :
+_ _ _ _ _ _ _ _ _ _ _ 
+
+Axe d'amélioration du template sur Google Drive dans le fichier boötesProject/TEMPLATE REVIEW.docx.
+Création via CRA pour travailler en React.
+Itémisation si nécessaire - voir selon le projet.
+Mobile first.
+Tailwindcss & SASS comme Framework CSS.
+    - Tailwindcss pour le général.
+    - SASS pour les animations et styles particuliers.
+Toutes les images optimisées.
+Un minimum de "px" - optez pour le "rem/em".
+Breakpoint via un helper présent dans le template, voir les résolutions :
+    - 320 - 768 mobiles.
+    - 769 - 1024 tablettes.
+    - 1025 - 1200 low desktop.
+    - 1201 + high desktop.
+Ce helper permet le choix du composant/sous-composants ou bien du conditionnement ternaire.
+SEO via GoogleSnippets.
+Premier deploiement test via branche gh-pages (npm run deploy).
