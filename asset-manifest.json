@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/groBeries/static/css/main.b09dbae0.css",
-    "main.js": "/groBeries/static/js/main.b0906953.js",
+    "main.css": "/groBeries/static/css/main.3e70896d.css",
+    "main.js": "/groBeries/static/js/main.0de278db.js",
     "static/js/787.a3de5c8f.chunk.js": "/groBeries/static/js/787.a3de5c8f.chunk.js",
     "static/media/Sans_titre-removebg-preview.png": "/groBeries/static/media/Sans_titre-removebg-preview.bfcea71307533a45bb90.png",
     "index.html": "/groBeries/index.html",
-    "main.b09dbae0.css.map": "/groBeries/static/css/main.b09dbae0.css.map",
-    "main.b0906953.js.map": "/groBeries/static/js/main.b0906953.js.map",
+    "main.3e70896d.css.map": "/groBeries/static/css/main.3e70896d.css.map",
+    "main.0de278db.js.map": "/groBeries/static/js/main.0de278db.js.map",
     "787.a3de5c8f.chunk.js.map": "/groBeries/static/js/787.a3de5c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b09dbae0.css",
-    "static/js/main.b0906953.js"
+    "static/css/main.3e70896d.css",
+    "static/js/main.0de278db.js"
   ]
 }
