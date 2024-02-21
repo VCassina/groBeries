@@ -2,10 +2,11 @@ import React from "react";
 import { HiChevronDown, HiChevronRight } from "react-icons/hi";
 
 function ToggleMenu({ category, title, isOpen, toggleCategory }) {
+  console.log(isOpen);
   return (
     <article>
       <h3
-        className="font-bold text-base border-b-4 my-8 flex  justify-center"
+        className="titleChevron font-bold rounded-lg text-xl border-4 my-8 flex justify-center"
         id={category}
         onClick={() => toggleCategory(category)}
       >

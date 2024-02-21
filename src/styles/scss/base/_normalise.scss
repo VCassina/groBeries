@@ -7,3 +7,11 @@
 html {
     scroll-behavior: smooth;
   }
+
+  body {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  
