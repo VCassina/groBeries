@@ -1,36 +1,74 @@
 {
-    "plats": [
+  "plats": [
+    {
+      "titre": "Salade de pâtes",
+      "ingredients": ["Feta", "Tomates", "Huile d'olive", "Jus de citron", "Pâtes", "Oignons/echalottes"]
+    },
+    {
+      "titre": "Brocolis à la crème et lardons",
+      "ingredients": ["Brocolis", "Crème", "Lardons", "Oignons/echalottes"]
+    },
+    {
+      "titre": "Epinards/patates + filet de poulet",
+      "ingredients": ["Epinards/patates", "Poulet", "Crème", "Oignons/echalottes"]
+    },
+    {
+      "titre": "Pita truite/poulet",
+      "ingredients": ["Boursin", "Tomates", "Salade", "Truite/poulet", "Autre légumes", "Oignons"]
+    },
+    {
+      "titre": "Salade spéciale",
+      "ingredients": ["Boursin", "Salade batavia", "Huile d'olive", "Jus de citron", "Tomates", "Fromage ossau iraty", "Lardons", "Echalottes"]
+    },
+    {
+      "titre": "Spaghetti à la bolognaise",
+      "ingredients": ["Viande hâchée ou boulette végétarienne", "Sauce tomate", "Tomates", "Parmesan ou autre fromage", "Oignons"]
+    },
+    {
+      "titre": "Fajitas poulet",
+      "ingredients": ["Poulet", "Wraps", "Huile d'olive", "Crème légère", "Tomates", "Poivrons", "Oignons"]
+    },
+    {
+      "titre": "Salade de thon/pomme de terre",
+      "ingredients": ["Pomme de terres", "Mayonnaise", "Thon en boite", "Echalottes"]
+    },
+    {
+      "titre": "Lasagnes vegetariennes",
+      "ingredients": ["Beurre", "Farine", "Fromage rapé", "Carottes", "Oignons", "Boeuf haché/alternative végatarienne", "Parmesan", "Ail", "Purée de tomate"]
+    },
+    {
+    "titre": "Lieu à la Française",
+    "ingredients": ["Lieu", "Beurre", "Echalottes", "Ail", "Jus de citron"]
+    }
+    
+  ],
+  "accompagnements": [
       {
-        "titre": "Salade de pâtes",
-        "ingredients": ["feta", "tomates", "basilic", "huile d'olive", "jus de citron", "pâtes"]
+      "titre": "Purée de pomme de terre",
+      "ingredients": ["Lait", "Beurre", "Pomme de terre"]
       },
       {
-        "titre": "Brocolis à la crème et lardons",
-        "ingredients": ["brocolis", "crème", "lardons"]
-      },
-      {
-        "titre": "Epinards/patates + filet de poulet",
-        "ingredients": ["Epinards/patates", "poulet", "crème"]
-      },
-      {
-        "titre": "Pita truite/poulet",
-        "ingredients": ["boursin", "tomates", "salade", "truite/poulet", "autre légumes"]
-      },
-      {
-        "titre": "Salade spéciale",
-        "ingredients": ["boursin", "salade batavia", "huile d'olive", "jus de citron", "tomates", "fromage ossau iraty", "lardons"]
+        "titre": "Haricots verts",
+        "ingredients": ["Haricots verts", "Beurre", "Ail"]
       }
     ],
-    "accompagnements": [
-        {
-        "titre": "Purée de pomme de terre",
-        "ingredients": ["lait", "beurre", "pomme de terre"]
-        }
-      ],
-    "articles": [
-        "Crêpe salée",
-        "huile d'olive",
-        "sel"
-    ]
-  }
-  
+  "articles": [
+      "Crêpe salée",
+      "Huile d'olive",
+      "Sel",
+      "Poivre",
+      "Origan",
+      "Basilic",
+      "Pain",
+      "Oeufs",
+      "Jus d'orange",
+      "Pain",
+      "Confiserie",
+      "Gâteau",
+      "Compote (Pomme/Poire)",
+      "Sopalin",
+      "Liquide vaiselle",
+      "Lessive",
+      "PQ"
+  ]
+}
